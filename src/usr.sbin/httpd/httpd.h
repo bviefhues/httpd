@@ -47,7 +47,7 @@
 #define nitems(_a) (sizeof((_a)) / sizeof((_a)[0]))
 #endif
 
-#define CONF_FILE		"/etc/httpd.conf"
+#define CONF_FILE		"/usr/local/etc/httpd.conf"
 #define HTTPD_SOCKET		"/var/run/httpd.sock"
 #define HTTPD_USER		"www"
 #define HTTPD_SERVERNAME	"OpenBSD httpd"
